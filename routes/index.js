@@ -131,7 +131,7 @@ router.get('/forgot_pass',function(req,res,next){
         var newpass = generatePassword(5);
         
 var mailOptions = {
-  from: 'ridhemgawri293@gmail.com',
+  from: 'tester@gmail.com',
   to: email,
   subject: 'Quiz App Password',
   text: `Your New Login Password id : ${newpass}`
